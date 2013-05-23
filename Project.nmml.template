@@ -9,15 +9,15 @@
 	<app main="$(PackageDot)Main" file="$(ProjectID)" path="bin" />
 	
 	<!--<window fps="30" orientation="portrait" background="0x333333" />-->
-	<window fps="60" resizable="true" background="0x333333" hardware="true" />
-	<!--<window width="640" height="480" resizable="true" unless="mobile" />-->
+	<window fps="60" orientation="landscape" resizable="true" background="0x333333" hardware="true" />
+	<window width="640" height="480" resizable="false" unless="mobile" />
 	<window fullscreen="true" if="mobile" />
 	
 	<!-- classpath, haxe libs -->
 	<source path="src" />
 	
 	<haxelib name="nme" />
-	<haxelib name="HaxePunk" />
+	<!--<haxelib name="HaxePunk" />-->
 	<haxelib name="flashconnect" if="flash" />
 	
 	<!-- assets -->

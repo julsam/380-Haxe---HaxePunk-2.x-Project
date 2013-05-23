@@ -5,7 +5,7 @@
     <movie outputType="Application" />
     <movie input="" />
     <movie path="Project.nmml" />
-    <movie fps="30" />
+    <movie fps="60" />
     <movie width="640" />
     <movie height="480" />
     <movie version="3" />
@@ -17,7 +17,6 @@
   <classpaths>
     <class path="src" />
     <class path="C:\Motion-Twin\haxe\lib/nme/3,5,5/" />
-    <class path="C:\Motion-Twin\haxe\lib/HaxePunk/2,0,3/" />
     <class path="bin/flash/haxe" />
   </classpaths>
   <!-- Build options -->
@@ -31,7 +30,6 @@
   <!-- haxelib libraries -->
   <haxelib>
     <library name="nme" />
-    <library name="HaxePunk" />
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>

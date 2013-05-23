@@ -1,13 +1,14 @@
 package $(PackageName);
 
-#if flash
-import org.flashdevelop.utils.FlashConnect;
-#end
 import nme.events.KeyboardEvent;
 import com.haxepunk.Engine;
 import com.haxepunk.HXP;
 import nme.display.FPS;
 import nme.Lib;
+
+#if flash
+import org.flashdevelop.utils.FlashConnect;
+#end
 
 /**
 $(CBI)* ...
@@ -41,7 +42,7 @@ class Main extends Engine
 		Lib.current.stage.addChild(fps);
 #end
 		
-		// HXP.world = new GameWorld();
+		// HXP.scene = new GameScene();
 	}
 	
 	private function androidOnKeyUp(e:KeyboardEvent):Void
